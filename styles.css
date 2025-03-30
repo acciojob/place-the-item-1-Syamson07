@@ -1,26 +1,15 @@
-/* Your CSS Code here. */
-.main{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px; /* Adds spacing between items */
 }
 
-.green{
-	font-size:50px;
-	background-color:green;
-	width:100px;
-	height:100px;
+.item {
+    flex: 1 1 150px; /* Grow, shrink, and set a base width */
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid #000;
 }
-.blue{
-	display:flex;
-	gap:20px;
-	font-size:50px;
-	background-color:blue;
-	width:100px;
-	height:100px;
-}
-.red{
-    font-size:50px;
-	background-color:red;
-	width:100px;
-	height:100px;}
